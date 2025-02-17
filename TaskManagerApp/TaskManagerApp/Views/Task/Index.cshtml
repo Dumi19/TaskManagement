@@ -1,0 +1,176 @@
+﻿@{
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+
+    ViewData["Title"] = "Task Management";
+}
+
+
+
+<header>
+    <link rel="stylesheet" href="~/css/Index.css" /> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+
+</header>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <h2>Clock In</h2>
+        <form asp-action="ClockIn" method="post" id="clockInForm">
+            <div class="form-group">
+                <label for="userName">Your Name:</label>
+                <input type="text" class="form-control" id="userName" name="userName" required placeholder="Enter your name" />
+            </div>
+            <div class="form-group">
+                <label for="taskName">Task Name:</label>
+                <input type="text" class="form-control" id="taskName" name="taskName" required placeholder="Enter task name" />
+            </div>
+            <button type="submit" class="btn btn-primary">Clock In</button>
+        </form>
+        <div id="message" class="mt-2"></div> <!-- For displaying messages -->
+    </div>
+
+    <div class="col-md-6 mb-4">
+        <h2>Clock Out</h2>
+        <form id="clockOutForm">
+            <div class="form-group">
+                <label for="clockOutUserName">Your Name:</label>
+                <input type="text" class="form-control" id="clockOutUserName" name="userName" required placeholder="Enter your name" />
+            </div>
+            <button type="submit" class="btn btn-danger">Clock Out</button>
+        </form>
+        <div id="clockOutMessage" class="mt-2"></div> <!-- For displaying messages -->
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 mb-4">
+        <h2>Generate Report</h2>
+        <form id="generateReportForm">
+            <div class="form-group">
+                <label for="reportUserName">Your Name:</label>
+                <input type="text" class="form-control" id="reportUserName" name="userName" required placeholder="Enter your name" />
+            </div>
+            <button type="submit" class="btn btn-primary">Generate Report</button>
+        </form>
+        <div id="reportMessage" class="mt-2"></div> <!-- For displaying messages -->
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        @if (!string.IsNullOrEmpty(ViewBag.Message))
+        {
+            <p class="alert alert-info">@ViewBag.Message</p>
+        }
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script>
+    $(document).ready(function () {
+          console.log("jQuery version: " + $.fn.jquery); // Debug message to check jQuery version
+            $("#setUserForm").submit(function (event) {
+            event.preventDefault(); // Prevent form submission
+
+            var userName = $("#selectUserName").val(); // Get user name
+            $.ajax({
+                type: "POST",
+                url: "@Url.Action("SetCurrentUser", "Task")", // Adjust action URL to a new action handling this
+                data: { userName: userName },
+                success: function (response) {
+                    $("#userMessage").html("<p>" + response.message + "</p>"); // Display the message
+                    console.log("User set response: " + response.message); // Debug log
+                },
+                error: function (jqXHR, textStatus) {
+                    $("#userMessage").html("<p>Error: " + textStatus + "</p>"); // Show error message
+                }
+            });
+          });
+          // Clock In AJAX logic
+          $("#clockInForm").submit(function (event) {
+              event.preventDefault(); // Prevent default form submission
+              console.log("Clock In form submission initialized."); // Debug message
+
+              var userName = $("#userName").val();
+              var taskName = $("#taskName").val();
+              console.log("User Name: " + userName); // Log user name input
+              console.log("Task Name: " + taskName); // Log task name input
+
+              // AJAX request for Clock In
+              $.ajax({
+                  type: "POST",
+                  url: "@Url.Action("ClockIn", "Task")", // Adjust action URL if necessary
+                  data: { userName: userName, taskName: taskName },
+                  success: function (response) {
+                      $("#message").html("<p>" + response.message + "</p>"); // Show success message
+                      console.log("Clock In success response: " + response.message); // Debug log
+                      $("#clockInForm")[0].reset(); // Reset the form
+                  },
+                  error: function (jqXHR, textStatus, errorThrown) {
+                      $("#message").html("<p>Error: " + textStatus + "</p>"); // Show error message
+                      console.error("Clock In AJAX Error:", textStatus, "Details:", errorThrown); // Log error
+                  }
+              });
+          });
+
+          // Clock Out AJAX logic
+          $("#clockOutForm").submit(function (event) {
+              event.preventDefault(); // Prevent default form submission
+              console.log("Clock Out form submission initialized."); // Debug message
+
+              var userName = $("#clockOutUserName").val();
+              console.log("User Name: " + userName); // Log user name input
+
+              // AJAX request for Clock Out
+              $.ajax({
+                  type: "POST",
+                  url: "@Url.Action("ClockOut", "Task")", // Adjust action URL if necessary
+                  data: { userName: userName },
+                  success: function (response) {
+                      $("#clockOutMessage").html("<p>" + response.message + "</p>"); // Show success message
+                      console.log("Clock Out success response: " + response.message); // Debug log
+                      $("#clockOutForm")[0].reset(); // Reset the form
+                  },
+                  error: function (jqXHR, textStatus, errorThrown) {
+                      $("#clockOutMessage").html("<p>Error: " + textStatus + "</p>"); // Show error message
+                      console.error("Clock Out AJAX Error:", textStatus, "Details:", errorThrown); // Log error
+                  }
+              });
+          });
+
+          // Generate Report AJAX logic
+          $("#generateReportForm").submit(function (event) {
+              event.preventDefault(); // Prevent default form submission
+              console.log("Generate Report form submission initialized."); // Debug message
+
+              var userName = $("#reportUserName").val();
+              console.log("User Name: " + userName); // Log user name input
+
+              // AJAX request for Generate Report
+              $.ajax({
+                      type: "GET", // Use GET for generating reports
+            url: "@Url.Action("GenerateReport", "Task")",
+            data: { userName: userName },
+            success: function (response) {
+                $("#reportMessage").empty(); // Clear previous messages
+                if (response.data) {
+                    $("#reportMessage").append("<h3>Report Summary:</h3><ul>");
+                    $.each(response.data, function (task, timeSpent) {
+                        $("#reportMessage").append(`<li>${task}: ${timeSpent}</li>`); // Display each task and time
+                    });
+                    $("#reportMessage").append("</ul>");
+                } else {
+                    $("#reportMessage").html("<p>No report data available.</p>");
+                }
+                console.log("Generate Report response: ", response); // Log success response
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                $("#reportMessage").html("<p>Error: " + textStatus + "</p>"); // Show error message
+                console.error("Generate Report AJAX Error:", textStatus, "Details:", errorThrown); // Log error
+            }
+              });
+          });
+      });
+</script>

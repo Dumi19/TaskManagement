@@ -1,0 +1,93 @@
+1. Start
+   |
+   v
+2. User visits the main page (`Index`)
+   |
+   v
+3. User can:
+   |--(a) Enter User Name and click 'Set User'
+   |       |
+   |       v
+   |      4. Call SetCurrentUser(userName)
+   |             |
+   |             v
+   |           5. Check if user exists
+   |             |              |
+   |             |              v
+   |             |           User exists
+   |             |              |
+   |             |              v
+   |             |           6. Set user as active
+   |             |              |
+   |            /               v
+   |           7. Return success or error message
+   |            |              |
+   |           /              User not found
+   |          /                |
+   |         v                v
+   |       2a. Show error --> 8. Prompt to add user
+   |                        +----+
+   |                        |
+   |                    (b) Add User Name and click 'Add User'
+   |                        |
+   |                        v
+   |                    9. Call AddUser(userName)
+   |                        |
+   |                        v
+   |                    10. Add user to the system
+   |                        |
+   |                        v
+   |                   Show success message
+   |                        |
+   |                        v
+   |                    Show user as active and allow clocking in
+   |
+   |--(c) Clock In:
+   |       |
+   |       v
+   |      11. Input Task Name and click 'Clock In'
+   |             |
+   |             v
+   |           12. Call ClockIn(userName, taskName)
+   |             |
+   |             v
+   |           13. Check if user exists
+   |             |              |
+   |             |              v
+   |             |           User exists
+   |             |              |
+   |             |              v
+   |             |           14. Clock In user for the task
+   |             |              |
+   |            /               v
+   |           15. Return success or error message
+   |            |              |
+   |           /              User not found
+   |          /                |
+   |         v                v
+   |       12a. Show error --> 16. Prompt to Enter Valid User
+   |
+   |--(d) Clock Out:
+   |       |
+   |       v
+   |      17. Input User Name and click 'Clock Out'
+   |             |
+   |             v
+   |           18. Call ClockOut(userName)
+   |             |
+   |             v
+   |           19. Clock out user and return success message
+   |
+   |--(e) Generate Report:
+   |       |
+   |       v
+   |      20. Input User Name and click 'Generate Report'
+   |             |
+   |             v
+   |           21. Call GenerateReport(userName)
+   |             |
+   |             v
+   |           22. Generate report data and return to user
+   |
+   v
+23. End.

@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Login";
+
+}
+<head>
+    <link rel="stylesheet" href="~/css/Login.css" /> <!-- Reference to the CSS file -->
+
+</head>
+<h1>Login</h1>
+
+<div>
+    <form method="post">
+        <label for="userName">User Name:</label>
+        <input type="text" id="userName" name="userName" required placeholder="Enter your name" />
+        <button type="submit">Login</button>
+    </form>
+
+    <p>@ViewBag.Message</p>
+    <a asp-controller="Account" asp-action="Register">Register a new account</a>
+    <a asp-controller="Account" asp-action="Administrator">Go to administration</a>
+
+</div>
