@@ -136,3 +136,4 @@ C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\obj
 C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\obj\Debug\net8.0\TaskManagerApp.pdb
 C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\obj\Debug\net8.0\TaskManagerApp.genruntimeconfig.cache
 C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\obj\Debug\net8.0\ref\TaskManagerApp.dll
+C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\obj\Debug\net8.0\TaskManagerApp.sourcelink.json

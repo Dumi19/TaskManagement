@@ -154,6 +154,7 @@
             url: "@Url.Action("GenerateReport", "Task")",
             data: { userName: userName },
             success: function (response) {
+                console.log(response);
                 $("#reportMessage").empty(); // Clear previous messages
                 if (response.data) {
                     $("#reportMessage").append("<h3>Report Summary:</h3><ul>");

@@ -43,6 +43,7 @@ namespace TaskManagerApp.Controllers
             }
 
             _taskManager.ClockOut(userName); // Process the clock out action
+            Console.WriteLine($"{userName} clocked out successfully."); // Log the action
             return Json(new { message = $"{userName} clocked out successfully." }); // Return success message as JSON
         }
 
@@ -55,14 +56,17 @@ namespace TaskManagerApp.Controllers
             }
 
             var reportData = _taskManager.GenerateReport(userName); // Get report data
+            Console.WriteLine($"Requesting report for user: {userName}");
 
             // Check if the report data is null or empty
             if (reportData == null || reportData.Count == 0)
             {
+                Console.WriteLine($"No report data available for user: {userName}");
                 return Json(new { message = "No report data available for the specified user." });
             }
 
             // Return success with the report data
+            Console.WriteLine($"Report generated successfully for user: {userName}.");
             return Json(new { message = "Report generated successfully.", data = reportData });
         }
         /*   [HttpPost]

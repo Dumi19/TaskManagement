@@ -32,6 +32,11 @@ namespace TaskManagerApp.Models
             {
                 activeUsers[userName] = user; // Add to active users dictionary
                 Console.WriteLine($"Debug: User '{userName}' found and set as active.");
+                Console.WriteLine($"Active Users Count: {activeUsers.Count}"); // Log count of active users
+                foreach (var activeUser in activeUsers)
+                {
+                    Console.WriteLine($"Active User: {activeUser.Key}"); // Log each active user
+                }
             }
             else
             {
@@ -48,14 +53,15 @@ namespace TaskManagerApp.Models
                 {
                     TaskName = taskName,
                     StartTime = DateTime.UtcNow, // Use UTC time
-                    EndTime = DateTime.MinValue, // Set default as unclocked out
+                    EndTime = DateTime.MinValue, // Default as unclocked out
                     UserId = user.Id // Link it to the user
                 };
 
-                user.AddTaskTime(taskName, taskTime); // Add task time to user's collection
-                _context.TaskTimes.Add(taskTime); // Store task time in context
-                _context.SaveChanges(); // Persist changes
-                user.CurrentTask = taskName; // Set current task
+                user.AddTaskTime(taskName, taskTime); // Add task to user's collection
+                _context.TaskTimes.Add(taskTime); // Persist the task time
+                _context.SaveChanges(); // Save changes to the database
+
+                user.CurrentTask = taskName; // Set current task immediately
                 Console.WriteLine($"{user.userName} clocked in for task '{taskName}'.");
             }
             else
@@ -67,30 +73,34 @@ namespace TaskManagerApp.Models
 
         public void ClockOut(string userName)
         {
-            if (activeUsers.TryGetValue(userName, out var user) && user.CurrentTask != null)
+            if (activeUsers.TryGetValue(userName, out var user)) // Check active user
             {
-                var taskTime = user.TaskTimes.LastOrDefault(t => t.TaskName == user.CurrentTask && t.EndTime == DateTime.MinValue);
-
-                if (taskTime != null)
+                if (!string.IsNullOrWhiteSpace(user.CurrentTask)) // Check for current task
                 {
-                    taskTime.EndTime = DateTime.Now; // Update end time
-                    _context.TaskTimes.Update(taskTime); // Update task time in context
-                    _context.SaveChanges(); // Persist changes
-                    Console.WriteLine($"{user.userName} clocked out from task '{user.CurrentTask}'.");
-                    user.CurrentTask = null; // Clear current task
+                    var taskTime = user.TaskTimes.LastOrDefault(t => t.TaskName == user.CurrentTask && t.EndTime == DateTime.MinValue);
+                    if (taskTime != null)
+                    {
+                        taskTime.EndTime = DateTime.UtcNow; // Set EndTime
+                        _context.TaskTimes.Update(taskTime); // Mark it for update
+                        _context.SaveChanges(); // Commit to the database
+                        user.CurrentTask = null; // Clear the current task
+                        Console.WriteLine($"{user.userName} clocked out successfully from task '{user.CurrentTask}'.");
+                    }
+                    else
+                    {
+                        Console.WriteLine($"No active task time found for '{user.userName}'.");
+                    }
                 }
                 else
                 {
-                    Console.WriteLine($"{user.userName} has not clocked in for task '{user.CurrentTask}'.");
+                    Console.WriteLine($"User '{userName}' has no current task to clock out from.");
                 }
             }
             else
             {
-                Console.WriteLine($"User '{userName}' is not active or has not clocked in.");
+                Console.WriteLine($"User '{userName}' is not in active users.");
             }
         }
-
-
 
 
         public Dictionary<string, TimeSpan> GenerateReport(string userName)
