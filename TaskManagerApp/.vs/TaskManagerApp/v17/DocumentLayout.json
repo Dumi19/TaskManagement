@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\models\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\models\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\views\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\views\\report.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\views\\task\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,28 +23,32 @@
       "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\models\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\models\\taskmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\migrations\\20250213201049_updatedatabaseschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\migrations\\20250213201049_updatedatabaseschema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\models\\tasktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\models\\tasktime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\models\\clockentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\models\\clockentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -41,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|solutionrelative:taskmanagerapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E6CD77B-2D90-40DF-904B-F83589AFD4F9}|TaskManagerApp\\TaskManagerApp.csproj|c:\\users\\dimab\\onedrive\\desktop\\taskmanagerapp\\taskmanagerapp\\taskmanagerapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -62,11 +74,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Administrator.cshtml",
               "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Views\\Account\\Administrator.cshtml",
               "RelativeDocumentMoniker": "TaskManagerApp\\Views\\Account\\Administrator.cshtml",
@@ -75,63 +87,90 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-02-12T16:32:13.192Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "TaskManagerApp\\Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "TaskManagerApp\\Controllers\\TaskController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAswFQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T18:08:22.893Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Views\\Task\\Index.cshtml",
-              "RelativeDocumentMoniker": "TaskManagerApp\\Views\\Task\\Index.cshtml",
-              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Views\\Task\\Index.cshtml",
-              "RelativeToolTip": "TaskManagerApp\\Views\\Task\\Index.cshtml",
-              "ViewState": "AgIAAHIAAAAAAAAAAADwv4wAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-18T17:51:07.694Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagerApp\\Program.cs",
+              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Program.cs",
+              "RelativeToolTip": "TaskManagerApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:03:08.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TaskManager.cs",
               "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\TaskManager.cs",
               "RelativeDocumentMoniker": "TaskManagerApp\\Models\\TaskManager.cs",
               "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\TaskManager.cs",
               "RelativeToolTip": "TaskManagerApp\\Models\\TaskManager.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAowDkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAswKUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T18:19:10.228Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Report.cshtml",
+              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Views\\Report.cshtml",
+              "RelativeDocumentMoniker": "TaskManagerApp\\Views\\Report.cshtml",
+              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Views\\Report.cshtml",
+              "RelativeToolTip": "TaskManagerApp\\Views\\Report.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-19T19:18:07.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\User.cs",
-              "RelativeDocumentMoniker": "TaskManagerApp\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\User.cs",
-              "RelativeToolTip": "TaskManagerApp\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T18:08:18.255Z",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Views\\Task\\Index.cshtml",
+              "RelativeDocumentMoniker": "TaskManagerApp\\Views\\Task\\Index.cshtml",
+              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Views\\Task\\Index.cshtml",
+              "RelativeToolTip": "TaskManagerApp\\Views\\Task\\Index.cshtml",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAwwLEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-18T17:51:07.694Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "TaskManagerApp\\Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "TaskManagerApp\\Controllers\\TaskController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAAE0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:08:22.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250213201049_UpdateDatabaseSchema.cs",
+              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Migrations\\20250213201049_UpdateDatabaseSchema.cs",
+              "RelativeDocumentMoniker": "TaskManagerApp\\Migrations\\20250213201049_UpdateDatabaseSchema.cs",
+              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Migrations\\20250213201049_UpdateDatabaseSchema.cs",
+              "RelativeToolTip": "TaskManagerApp\\Migrations\\20250213201049_UpdateDatabaseSchema.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:48:16.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "TaskTime.cs",
               "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\TaskTime.cs",
               "RelativeDocumentMoniker": "TaskManagerApp\\Models\\TaskTime.cs",
@@ -140,32 +179,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T18:26:49.479Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "TaskManagerApp\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "TaskManagerApp\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T18:02:25.699Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ClockEntry.cs",
-              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\ClockEntry.cs",
-              "RelativeDocumentMoniker": "TaskManagerApp\\Models\\ClockEntry.cs",
-              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\ClockEntry.cs",
-              "RelativeToolTip": "TaskManagerApp\\Models\\ClockEntry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T18:24:47.731Z",
               "EditorCaption": ""
             },
             {
@@ -184,6 +197,58 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "TaskManagerApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "RelativeToolTip": "TaskManagerApp\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAQwGAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T18:24:06.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClockEntry.cs",
+              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\ClockEntry.cs",
+              "RelativeDocumentMoniker": "TaskManagerApp\\Models\\ClockEntry.cs",
+              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\ClockEntry.cs",
+              "RelativeToolTip": "TaskManagerApp\\Models\\ClockEntry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:24:47.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "TaskManagerApp\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\User.cs",
+              "RelativeToolTip": "TaskManagerApp\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T18:08:18.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "TaskManagerApp\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "TaskManagerApp\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T18:02:25.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "TaskManagerApp\\Views\\Home\\Privacy.cshtml",
@@ -196,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "TaskManagerApp\\Controllers\\AccountController.cs",
@@ -209,19 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Program.cs",
-              "RelativeDocumentMoniker": "TaskManagerApp\\Program.cs",
-              "ToolTip": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\Program.cs",
-              "RelativeToolTip": "TaskManagerApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T18:03:08.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\dimab\\OneDrive\\Desktop\\TaskManagerApp\\TaskManagerApp\\TaskManagerApp\\appsettings.json",
               "RelativeDocumentMoniker": "TaskManagerApp\\appsettings.json",
@@ -229,7 +282,8 @@
               "RelativeToolTip": "TaskManagerApp\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-13T18:04:19.604Z"
+              "WhenOpened": "2025-02-13T18:04:19.604Z",
+              "EditorCaption": ""
             }
           ]
         }

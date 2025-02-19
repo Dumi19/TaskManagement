@@ -1,0 +1,19 @@
+2025-02-19 20:30:42.618 +01:00 [INF] Application Starting
+2025-02-19 20:31:02.811 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-19 20:31:05.961 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-19 20:31:05.963 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-19 20:31:05.965 +01:00 [DBG] Active Users Count: 1
+2025-02-19 20:31:05.966 +01:00 [DBG] Active User: 3005Testing
+2025-02-19 20:31:12.644 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-19 20:31:12.789 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-19 20:31:12.791 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-19 20:31:12.793 +01:00 [DBG] Active Users Count: 1
+2025-02-19 20:31:12.795 +01:00 [DBG] Active User: 3005Testing
+2025-02-19 20:31:12.798 +01:00 [DBG] Attempting to clock in user '3005Testing' with task 'testing'.
+2025-02-19 20:31:12.799 +01:00 [DBG] User found in active users.
+2025-02-19 20:31:13.154 +01:00 [INF] 3005Testing clocked in for task 'testing'.
+2025-02-19 20:31:30.954 +01:00 [DBG] Debug: Attempting to clock out user '3005Testing'.
+2025-02-19 20:31:30.956 +01:00 [WRN] User '3005Testing' is not in active users.
+2025-02-19 20:31:30.960 +01:00 [DBG] Active Users After ClockOut:
+2025-02-19 20:31:30.962 +01:00 [DBG] Active Users Count: 0
+2025-02-19 20:31:43.857 +01:00 [WRN] User '3005Testing' not found while generating report.

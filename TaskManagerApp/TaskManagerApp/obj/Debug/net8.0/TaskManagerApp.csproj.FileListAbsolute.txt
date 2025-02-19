@@ -137,3 +137,6 @@ C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\obj
 C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\obj\Debug\net8.0\TaskManagerApp.genruntimeconfig.cache
 C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\obj\Debug\net8.0\ref\TaskManagerApp.dll
 C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\obj\Debug\net8.0\TaskManagerApp.sourcelink.json
+C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\bin\Debug\net8.0\Serilog.dll
+C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\dimab\OneDrive\Desktop\TaskManagerApp\TaskManagerApp\TaskManagerApp\bin\Debug\net8.0\Serilog.Sinks.File.dll
