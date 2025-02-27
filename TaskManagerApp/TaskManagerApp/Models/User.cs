@@ -11,8 +11,8 @@ namespace TaskManagerApp.Models
         [MaxLength(100)]
         public string userName { get; set; }
 
-        public ICollection<ClockEntry> ClockEntries { get; set; } = new List<ClockEntry>();
-        public ICollection<TaskTime> TaskTimes { get; set; } = new List<TaskTime>(); // Use collection instead
+     //   public ICollection<ClockEntry> ClockEntries { get; set; } = new List<ClockEntry>();
+        public ICollection<TaskTime> TaskTimes { get; set; } = new List<TaskTime>();
         public string? CurrentTask { get; set; }
 
         public User() { }

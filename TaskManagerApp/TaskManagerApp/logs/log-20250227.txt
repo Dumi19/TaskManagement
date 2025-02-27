@@ -1,0 +1,26 @@
+2025-02-27 20:24:46.238 +01:00 [INF] Application Starting
+2025-02-27 20:25:11.751 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-27 20:25:12.692 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-27 20:25:12.693 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-27 20:25:12.696 +01:00 [DBG] Active Users Count: 1
+2025-02-27 20:25:12.698 +01:00 [DBG] Active User: 3005Testing
+2025-02-27 20:25:19.854 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-27 20:25:19.954 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-27 20:25:19.956 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-27 20:25:19.958 +01:00 [DBG] Active Users Count: 1
+2025-02-27 20:25:19.959 +01:00 [DBG] Active User: 3005Testing
+2025-02-27 20:25:19.963 +01:00 [DBG] Attempting to clock in user '3005Testing' with task 'task'.
+2025-02-27 20:25:19.966 +01:00 [DBG] Set CurrentTask for '3005Testing' to 'task'.
+2025-02-27 20:25:20.307 +01:00 [INF] 3005Testing clocked in for task 'task'.
+2025-02-27 20:25:26.498 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-27 20:25:26.595 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-27 20:25:26.597 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-27 20:25:26.599 +01:00 [DBG] Active Users Count: 1
+2025-02-27 20:25:26.600 +01:00 [DBG] Active User: 3005Testing
+2025-02-27 20:25:26.605 +01:00 [DBG] Attempting to clock out user '3005Testing'.
+2025-02-27 20:25:26.606 +01:00 [DBG] User found in active users for clocking out.
+2025-02-27 20:25:26.608 +01:00 [DBG] CurrentTask for '3005Testing': task
+2025-02-27 20:25:26.720 +01:00 [DBG] TaskTime - Task: task, StartTime: 27/02/2025 19.25.19, EndTime: 31/12/9999 23.59.59
+2025-02-27 20:25:26.833 +01:00 [DBG] Current task found for '3005Testing': task, starting at 27/02/2025 19.25.19
+2025-02-27 20:25:27.100 +01:00 [INF] 3005Testing clocked out successfully from task 'task'.
+2025-02-27 20:26:40.090 +01:00 [WRN] User '3005Testing' not found while generating report.

@@ -22,7 +22,8 @@ namespace TaskManagerApp.Controllers
         {
             Console.WriteLine($"Debug: ClockIn called with Username: {userName}, TaskName: {taskName}");
 
-            var user = _taskManager.SetCurrentUser(userName);
+            var user = GetActiveUser(userName);
+            if (user == null) return Json(new { message = $"User '{userName}' not found." });
 
             if (user == null)
             {
@@ -45,6 +46,8 @@ namespace TaskManagerApp.Controllers
         public IActionResult ClockOut(string userName)
         {
             Console.WriteLine($"Debug: ClockOut called with Username: {userName}");
+            var user = GetActiveUser(userName);
+            if (user == null) return Json(new { message = $"User '{userName}' not found." });
 
             if (string.IsNullOrWhiteSpace(userName))
             {
@@ -69,30 +72,30 @@ namespace TaskManagerApp.Controllers
 
             return Json(new { message = $"{userName} clocked out successfully." }); // Return success message as JSON
         }
-
         [HttpGet]
         public IActionResult GenerateReport(string userName)
         {
-            Console.WriteLine($"Debug: GenerateReport called with Username: {userName}");
+            // Using a logger instead of Console.WriteLine for production code
+            Console.WriteLine($"GenerateReport called with Username: {userName}");
 
             if (string.IsNullOrWhiteSpace(userName))
             {
-                Console.WriteLine("Debug: User name must be provided to generate a report.");
+                Console.WriteLine("User name must be provided to generate a report.");
                 return Json(new { message = "Please provide a valid user name." }); // Return error as JSON
             }
 
             var reportData = _taskManager.GenerateReport(userName); // Get report data
-            Console.WriteLine($"Debug: Requesting report for user: {userName}");
+            Console.WriteLine($"Requesting report for user: {userName}");
 
             // Check if the report data is null or empty
             if (reportData == null || reportData.Count == 0)
             {
-                Console.WriteLine($"Debug: No report data available for user: {userName}");
+                Console.WriteLine($"No report data available for user: {userName}");
                 return Json(new { message = "No report data available for the specified user." });
             }
 
             // Return success with the report data
-            Console.WriteLine($"Debug: Report generated successfully for user: {userName}.");
+            Console.WriteLine($"Report generated successfully for user: {userName}.");
             return Json(new { message = "Report generated successfully.", data = reportData });
         }
 
@@ -107,5 +110,14 @@ namespace TaskManagerApp.Controllers
               return Json(new { message = $"User '{user.Name}' is now active." });
           }
         */
+        private User GetActiveUser(string userName)
+        {
+            var user = _taskManager.SetCurrentUser(userName);
+            if (user == null)
+            {
+                Console.WriteLine($"User '{userName}' not found.");
+            }
+            return user; // Will be null if not found
+        }
     }
 }

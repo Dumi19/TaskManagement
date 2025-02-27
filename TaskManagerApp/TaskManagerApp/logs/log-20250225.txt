@@ -1,0 +1,781 @@
+2025-02-25 19:03:41.617 +01:00 [INF] Application Starting
+2025-02-25 19:03:55.431 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:03:59.503 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:03:59.505 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:03:59.507 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:03:59.508 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:04:02.805 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:04:02.985 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:04:02.992 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:04:03.000 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:04:03.003 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:04:03.008 +01:00 [DBG] Attempting to clock in user '3005Testing' with task 'testing123'.
+2025-02-25 19:04:03.013 +01:00 [DBG] User found in active users.
+2025-02-25 19:04:03.625 +01:00 [INF] 3005Testing clocked in for task 'testing123'.
+2025-02-25 19:04:13.007 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:04:13.146 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:04:13.147 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:04:13.149 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:04:13.151 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:04:13.155 +01:00 [DBG] Debug: Attempting to clock out user '3005Testing'.
+2025-02-25 19:04:13.158 +01:00 [DBG] Debug: User found in active users for clocking out.
+2025-02-25 19:04:13.221 +01:00 [DBG] No active task time found for user '3005Testing'.
+2025-02-25 19:04:13.223 +01:00 [DBG] Active Users After ClockOut:
+2025-02-25 19:04:13.225 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:04:13.226 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:30:17.221 +01:00 [INF] Application Starting
+2025-02-25 19:30:26.826 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:30:29.630 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:30:29.633 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:30:29.635 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:30:29.637 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:30:35.777 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:30:35.888 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:30:35.890 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:30:35.892 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:30:35.894 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:30:35.898 +01:00 [DBG] Attempting to clock in user '3005Testing' with task 'testing123'.
+2025-02-25 19:30:36.496 +01:00 [INF] 3005Testing clocked in for task 'testing123'.
+2025-02-25 19:30:41.133 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:30:41.287 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:30:41.288 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:30:41.289 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:30:41.290 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:30:41.293 +01:00 [DBG] Debug: Attempting to clock out user '3005Testing'.
+2025-02-25 19:30:41.294 +01:00 [DBG] Debug: User found in active users for clocking out.
+2025-02-25 19:30:41.355 +01:00 [INF] 3005Testing clocked out successfully from task 'testing123'.
+2025-02-25 19:30:41.356 +01:00 [DBG] Active Users After ClockOut:
+2025-02-25 19:30:41.357 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:30:41.358 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:34:35.809 +01:00 [WRN] User '3005Testing' not found while generating report.
+2025-02-25 19:34:59.471 +01:00 [WRN] User '3005Testing' not found while generating report.
+2025-02-25 19:43:57.132 +01:00 [INF] Application Starting
+2025-02-25 19:44:07.764 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:44:11.279 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:44:11.281 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:44:11.282 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:44:11.284 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:44:44.082 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:44:44.228 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:44:44.229 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:44:44.230 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:44:44.232 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:45:07.272 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:45:07.281 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:45:07.284 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:45:07.285 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:45:07.287 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:45:07.294 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB'.
+2025-02-25 19:45:07.435 +01:00 [INF] TestingTest clocked in for task 'testingDB'.
+2025-02-25 19:45:24.133 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:45:24.148 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:45:24.150 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:45:24.152 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:45:24.154 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:45:24.160 +01:00 [DBG] Attempting to clock out user 'TestingTest'.
+2025-02-25 19:45:24.161 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 19:45:24.227 +01:00 [INF] TestingTest clocked out successfully from task 'testingDB'.
+2025-02-25 19:47:45.398 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.400 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.400 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.441 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.403 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.462 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.453 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.403 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.483 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.471 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.491 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.486 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.406 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.410 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.414 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.504 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.510 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.514 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.516 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.501 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.525 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.531 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.418 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.418 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.547 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.549 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.576 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.551 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.556 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.558 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.560 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.562 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.543 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.571 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.422 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.425 +01:00 [WRN] User 'TestingTest' not found while generating report.
+2025-02-25 19:47:45.426 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.582 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.580 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.588 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.591 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.593 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.634 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.636 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.638 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.595 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.645 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.650 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.653 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.663 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.648 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.661 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.597 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.602 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.604 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.579 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.614 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.629 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.429 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.432 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.672 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.677 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.680 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.681 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.684 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.686 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.689 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.695 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.698 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.707 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.435 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.437 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.438 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:47:45.718 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.721 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.724 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.766 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.728 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.730 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.733 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.737 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.737 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.739 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.744 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.715 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.752 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.757 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.764 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:47:45.778 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.780 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.782 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.785 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.787 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.789 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.791 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.795 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.797 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.799 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.802 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.804 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:47:45.815 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.818 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.820 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.822 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.828 +01:00 [DBG] Attempting to clock in user 'TestingTest' with task 'testingDB2'.
+2025-02-25 19:47:45.830 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.833 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.835 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.838 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.844 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:47:45.860 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.862 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.864 +01:00 [WRN] User 'TestingTest' is already clocked in for task 'testingDB'.
+2025-02-25 19:47:45.866 +01:00 [DBG] Attempting to clock out user 'TestingTest'.
+2025-02-25 19:47:45.869 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.891 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 19:47:45.871 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.873 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.878 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:47:45.897 +01:00 [DBG] Attempting to clock out user 'TestingTest'.
+2025-02-25 19:47:45.903 +01:00 [DBG] Attempting to clock out user 'TestingTest'.
+2025-02-25 19:47:45.905 +01:00 [DBG] Attempting to clock out user 'TestingTest'.
+2025-02-25 19:47:45.911 +01:00 [DBG] No active task time found for user 'TestingTest'.
+2025-02-25 19:47:45.917 +01:00 [DBG] Attempting to clock out user 'TestingTest'.
+2025-02-25 19:47:45.920 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 19:47:45.923 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 19:47:45.931 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 19:47:45.969 +01:00 [DBG] No active task time found for user 'TestingTest'.
+2025-02-25 19:47:45.981 +01:00 [DBG] No active task time found for user 'TestingTest'.
+2025-02-25 19:47:45.946 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 19:47:45.992 +01:00 [DBG] No active task time found for user 'TestingTest'.
+2025-02-25 19:47:46.057 +01:00 [DBG] No active task time found for user 'TestingTest'.
+2025-02-25 19:51:15.754 +01:00 [INF] Application Starting
+2025-02-25 19:51:50.679 +01:00 [DBG] Searching for user 'TestingTest'...
+2025-02-25 19:51:53.507 +01:00 [DBG] Found user TestingTest. Checking active users...
+2025-02-25 19:51:53.508 +01:00 [DBG] User 'TestingTest' added to active users.
+2025-02-25 19:51:53.511 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:51:53.512 +01:00 [DBG] Active User: TestingTest
+2025-02-25 19:52:26.968 +01:00 [DBG] Searching for user 'Mihai'...
+2025-02-25 19:52:27.139 +01:00 [DBG] Found user Mihai. Checking active users...
+2025-02-25 19:52:27.140 +01:00 [DBG] User 'Mihai' added to active users.
+2025-02-25 19:52:27.142 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:52:27.143 +01:00 [DBG] Active User: Mihai
+2025-02-25 19:52:55.120 +01:00 [DBG] Searching for user 'Mihai'...
+2025-02-25 19:52:55.128 +01:00 [DBG] Found user Mihai. Checking active users...
+2025-02-25 19:52:55.130 +01:00 [DBG] User 'Mihai' added to active users.
+2025-02-25 19:52:55.132 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:52:55.133 +01:00 [DBG] Active User: Mihai
+2025-02-25 19:52:55.136 +01:00 [DBG] Attempting to clock in user 'Mihai' with task 'testMihai'.
+2025-02-25 19:52:55.296 +01:00 [INF] Mihai clocked in for task 'testMihai'.
+2025-02-25 19:53:38.824 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:53:38.837 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:53:38.839 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:53:38.841 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:53:38.842 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:53:38.847 +01:00 [DBG] Attempting to clock out user '3005Testing'.
+2025-02-25 19:53:38.848 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 19:53:38.910 +01:00 [INF] 3005Testing clocked out successfully from task ''.
+2025-02-25 19:57:47.953 +01:00 [INF] Application Starting
+2025-02-25 19:57:53.266 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:57:56.152 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:57:56.154 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:57:56.156 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:57:56.157 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:58:02.413 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:58:02.461 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:58:02.462 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:58:02.464 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:58:02.466 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:58:02.469 +01:00 [DBG] Attempting to clock in user '3005Testing' with task 'asdbasbdas'.
+2025-02-25 19:58:02.826 +01:00 [INF] 3005Testing clocked in for task 'asdbasbdas'.
+2025-02-25 19:58:05.133 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 19:58:05.260 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 19:58:05.262 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 19:58:05.264 +01:00 [DBG] Active Users Count: 1
+2025-02-25 19:58:05.265 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 19:58:05.269 +01:00 [DBG] Attempting to clock out user '3005Testing'.
+2025-02-25 19:58:05.270 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 19:58:05.317 +01:00 [INF] 3005Testing clocked out successfully from task 'asdbasbdas'.
+2025-02-25 20:03:54.383 +01:00 [INF] Application Starting
+2025-02-25 20:04:05.786 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 20:04:08.488 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 20:04:08.489 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 20:04:08.492 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:04:08.493 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 20:04:29.406 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:04:29.568 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:04:29.569 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:04:29.571 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:04:29.572 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:05:25.643 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:05:25.644 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:05:25.646 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:05:25.661 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:05:25.677 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:05:25.650 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:05:25.691 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:05:25.696 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:05:25.698 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:05:25.702 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:05:25.706 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:05:25.710 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:05:25.711 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:05:25.713 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:05:25.715 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:05:25.717 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:05:25.719 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:05:25.721 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:05:25.722 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:05:25.728 +01:00 [DBG] Attempting to clock in user 'Dumi' with task 'testing'.
+2025-02-25 20:05:25.729 +01:00 [DBG] Attempting to clock in user 'Dumi' with task 'testing1'.
+2025-02-25 20:05:25.730 +01:00 [DBG] Attempting to clock in user 'Dumi' with task 'testing1'.
+2025-02-25 20:05:25.733 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:05:25.745 +01:00 [DBG] Attempting to clock in user 'Dumi' with task 'testing'.
+2025-02-25 20:05:25.899 +01:00 [INF] Dumi clocked in for task 'testing1'.
+2025-02-25 20:05:25.920 +01:00 [INF] Dumi clocked in for task 'testing1'.
+2025-02-25 20:05:25.925 +01:00 [INF] Dumi clocked in for task 'testing'.
+2025-02-25 20:05:26.031 +01:00 [INF] Dumi clocked in for task 'testing'.
+2025-02-25 20:05:46.044 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:05:46.054 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:05:46.056 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:05:46.061 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:05:46.063 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:05:46.069 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:05:46.070 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:05:46.128 +01:00 [DBG] No active task time found for user 'Dumi'.
+2025-02-25 20:06:33.776 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:06:33.786 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:06:33.797 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:06:33.800 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:06:33.805 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:06:33.808 +01:00 [DBG] Attempting to clock in user 'Dumi' with task 'dumi1'.
+2025-02-25 20:06:33.828 +01:00 [INF] Dumi clocked in for task 'dumi1'.
+2025-02-25 20:06:56.094 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:06:56.110 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:06:56.112 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:06:56.116 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:06:56.117 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:06:56.119 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:06:56.122 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:06:56.497 +01:00 [INF] Dumi clocked out successfully from task ''.
+2025-02-25 20:08:33.641 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:08:33.659 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:08:33.668 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:08:33.671 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:08:33.674 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:08:33.679 +01:00 [DBG] Attempting to clock in user 'Dumi' with task 'testing12345'.
+2025-02-25 20:08:33.682 +01:00 [WRN] User 'Dumi' is already clocked in for task 'dumi1'.
+2025-02-25 20:08:42.201 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:08:42.211 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:08:42.212 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:08:42.215 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:08:42.217 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:08:42.224 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:08:42.227 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:08:42.247 +01:00 [INF] Dumi clocked out successfully from task ''.
+2025-02-25 20:08:48.631 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:08:48.648 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:08:48.651 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:08:48.656 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:08:48.660 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:08:48.665 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:08:48.667 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:08:48.681 +01:00 [DBG] No active task time found for user 'Dumi'.
+2025-02-25 20:09:21.929 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:09:22.011 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:09:22.013 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:09:22.015 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:09:22.016 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:09:22.022 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:09:22.024 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:09:22.032 +01:00 [DBG] No active task time found for user 'Dumi'.
+2025-02-25 20:10:07.627 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:10:07.638 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:10:07.641 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:10:07.643 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:10:07.646 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:10:07.648 +01:00 [DBG] Attempting to clock in user 'Dumi' with task 'testing1111'.
+2025-02-25 20:10:07.665 +01:00 [INF] Dumi clocked in for task 'testing1111'.
+2025-02-25 20:10:34.736 +01:00 [WRN] User 'Dumi' not found while generating report.
+2025-02-25 20:32:52.066 +01:00 [INF] Application Starting
+2025-02-25 20:33:33.503 +01:00 [DBG] Searching for user 'Neville'...
+2025-02-25 20:33:34.346 +01:00 [DBG] Found user Neville. Checking active users...
+2025-02-25 20:33:34.348 +01:00 [DBG] User 'Neville' added to active users.
+2025-02-25 20:33:34.350 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:33:34.352 +01:00 [DBG] Active User: Neville
+2025-02-25 20:33:43.870 +01:00 [DBG] Searching for user 'Neville'...
+2025-02-25 20:33:43.907 +01:00 [DBG] Found user Neville. Checking active users...
+2025-02-25 20:33:43.909 +01:00 [DBG] User 'Neville' added to active users.
+2025-02-25 20:33:43.911 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:33:43.917 +01:00 [DBG] Active User: Neville
+2025-02-25 20:33:43.920 +01:00 [DBG] Attempting to clock in user 'Neville' with task '1'.
+2025-02-25 20:33:44.083 +01:00 [INF] Neville clocked in for task '1'.
+2025-02-25 20:34:37.569 +01:00 [DBG] Searching for user 'Neville'...
+2025-02-25 20:34:37.582 +01:00 [DBG] Found user Neville. Checking active users...
+2025-02-25 20:34:37.585 +01:00 [DBG] User 'Neville' added to active users.
+2025-02-25 20:34:37.587 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:34:37.590 +01:00 [DBG] Active User: Neville
+2025-02-25 20:34:37.594 +01:00 [DBG] Attempting to clock out user 'Neville'.
+2025-02-25 20:34:37.599 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:34:37.653 +01:00 [WRN] No active task time found for user 'Neville'.
+2025-02-25 20:35:38.095 +01:00 [DBG] Searching for user 'Neville'...
+2025-02-25 20:35:38.103 +01:00 [DBG] Found user Neville. Checking active users...
+2025-02-25 20:35:38.105 +01:00 [DBG] User 'Neville' added to active users.
+2025-02-25 20:35:38.109 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:35:38.112 +01:00 [DBG] Active User: Neville
+2025-02-25 20:35:38.114 +01:00 [DBG] Attempting to clock out user 'Neville'.
+2025-02-25 20:35:38.116 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:35:38.125 +01:00 [WRN] No active task time found for user 'Neville'.
+2025-02-25 20:35:52.541 +01:00 [DBG] Searching for user 'Neville'...
+2025-02-25 20:35:52.549 +01:00 [DBG] Found user Neville. Checking active users...
+2025-02-25 20:35:52.553 +01:00 [DBG] User 'Neville' added to active users.
+2025-02-25 20:35:52.557 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:35:52.559 +01:00 [DBG] Active User: Neville
+2025-02-25 20:35:52.561 +01:00 [DBG] Attempting to clock in user 'Neville' with task '2'.
+2025-02-25 20:35:52.563 +01:00 [WRN] User 'Neville' is already clocked in for task '1'.
+2025-02-25 20:35:58.243 +01:00 [DBG] Searching for user 'Neville'...
+2025-02-25 20:35:58.253 +01:00 [DBG] Found user Neville. Checking active users...
+2025-02-25 20:35:58.258 +01:00 [DBG] User 'Neville' added to active users.
+2025-02-25 20:35:58.260 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:35:58.262 +01:00 [DBG] Active User: Neville
+2025-02-25 20:35:58.265 +01:00 [DBG] Attempting to clock out user 'Neville'.
+2025-02-25 20:35:58.267 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:35:58.275 +01:00 [WRN] No active task time found for user 'Neville'.
+2025-02-25 20:39:57.230 +01:00 [INF] Application Starting
+2025-02-25 20:40:04.238 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:40:06.896 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:40:06.897 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:40:06.899 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:40:06.901 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:40:13.932 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:40:13.996 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:40:13.997 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:40:13.998 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:40:14.000 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:40:14.003 +01:00 [DBG] Attempting to clock in user 'Dumi' with task 'testy'.
+2025-02-25 20:40:14.385 +01:00 [INF] Dumi clocked in for task 'testy'.
+2025-02-25 20:40:23.387 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:40:23.506 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:40:23.507 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:40:23.509 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:40:23.511 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:40:23.515 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:40:23.517 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:40:23.519 +01:00 [DBG] CurrentTask for 'Dumi': testing1111
+2025-02-25 20:40:23.562 +01:00 [WRN] No active task time found for user 'Dumi'.
+2025-02-25 20:40:56.560 +01:00 [WRN] User 'Dumi' not found while generating report.
+2025-02-25 20:44:47.804 +01:00 [INF] Application Starting
+2025-02-25 20:45:53.532 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:45:58.023 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:45:58.025 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:45:58.027 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:45:58.028 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:46:02.979 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:46:03.035 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:46:03.036 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:46:03.037 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:46:03.039 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:46:03.046 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:46:03.048 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:46:03.049 +01:00 [DBG] CurrentTask for 'Dumi': testing1111
+2025-02-25 20:46:03.177 +01:00 [DBG] TaskTime - Task: taskName, StartTime: 13/02/2025 20.46.11, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:03.178 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:03.179 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:03.181 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 25/02/2025 19.06.56
+2025-02-25 20:46:03.182 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:03.183 +01:00 [DBG] TaskTime - Task: testing1111, StartTime: 25/02/2025 19.10.07, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:03.227 +01:00 [WRN] No active task time found for user 'Dumi'.
+2025-02-25 20:46:12.898 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:46:13.041 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:46:13.042 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:46:13.043 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:46:13.044 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:46:13.046 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:46:13.048 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:46:13.049 +01:00 [DBG] CurrentTask for 'Dumi': testing1111
+2025-02-25 20:46:13.055 +01:00 [DBG] TaskTime - Task: taskName, StartTime: 13/02/2025 20.46.11, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:13.056 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:13.057 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:13.058 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 25/02/2025 19.06.56
+2025-02-25 20:46:13.059 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:13.061 +01:00 [DBG] TaskTime - Task: testing1111, StartTime: 25/02/2025 19.10.07, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:13.068 +01:00 [WRN] No active task time found for user 'Dumi'.
+2025-02-25 20:46:55.633 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:46:55.641 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:46:55.642 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:46:55.644 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:46:55.647 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:46:55.649 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:46:55.650 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:46:55.658 +01:00 [DBG] CurrentTask for 'Dumi': testing1111
+2025-02-25 20:46:55.665 +01:00 [DBG] TaskTime - Task: taskName, StartTime: 13/02/2025 20.46.11, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:55.666 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:55.668 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:55.674 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 25/02/2025 19.06.56
+2025-02-25 20:46:55.675 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:55.677 +01:00 [DBG] TaskTime - Task: testing1111, StartTime: 25/02/2025 19.10.07, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:46:55.685 +01:00 [WRN] No active task time found for user 'Dumi'.
+2025-02-25 20:47:21.681 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 20:47:21.689 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 20:47:21.691 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 20:47:21.693 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:47:21.696 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 20:47:21.698 +01:00 [DBG] Attempting to clock out user '3005Testing'.
+2025-02-25 20:47:21.700 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:47:21.705 +01:00 [DBG] CurrentTask for '3005Testing': asdbasbdas
+2025-02-25 20:47:21.714 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.15.55, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.715 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.22.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.718 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.29.23, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.723 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.59.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.725 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 19.07.37, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.727 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.19.06, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.730 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.28.21, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.732 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.36.34, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.735 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.47.15, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.739 +01:00 [DBG] TaskTime - Task: testingefsdfsdfsdf, StartTime: 19/02/2025 18.47.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.741 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.54.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.743 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.04.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.747 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.09.27, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.749 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.31.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.751 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 18.44.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.753 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 19.04.43, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.755 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.20.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.757 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.32.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.759 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.34.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.764 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.47.22, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.766 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 20.06.10, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:47:21.768 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.04.03, EndTime: 25/02/2025 18.53.38
+2025-02-25 20:47:21.770 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.30.35, EndTime: 25/02/2025 18.30.41
+2025-02-25 20:47:21.772 +01:00 [DBG] TaskTime - Task: asdbasbdas, StartTime: 25/02/2025 18.58.02, EndTime: 25/02/2025 18.58.05
+2025-02-25 20:47:21.779 +01:00 [WRN] No active task time found for user '3005Testing'.
+2025-02-25 20:48:03.514 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 20:48:03.523 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 20:48:03.527 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 20:48:03.539 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:48:03.546 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 20:48:03.549 +01:00 [DBG] Attempting to clock out user '3005Testing'.
+2025-02-25 20:48:03.551 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:48:03.557 +01:00 [DBG] CurrentTask for '3005Testing': asdbasbdas
+2025-02-25 20:48:03.566 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.15.55, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.567 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.22.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.572 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.29.23, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.574 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.59.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.576 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 19.07.37, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.579 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.19.06, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.581 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.28.21, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.583 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.36.34, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.585 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.47.15, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.590 +01:00 [DBG] TaskTime - Task: testingefsdfsdfsdf, StartTime: 19/02/2025 18.47.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.592 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.54.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.594 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.04.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.597 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.09.27, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.599 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.31.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.600 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 18.44.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.605 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 19.04.43, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.607 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.20.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.609 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.32.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.612 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.34.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.614 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.47.22, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.616 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 20.06.10, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:03.618 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.04.03, EndTime: 25/02/2025 18.53.38
+2025-02-25 20:48:03.623 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.30.35, EndTime: 25/02/2025 18.30.41
+2025-02-25 20:48:03.626 +01:00 [DBG] TaskTime - Task: asdbasbdas, StartTime: 25/02/2025 18.58.02, EndTime: 25/02/2025 18.58.05
+2025-02-25 20:48:03.634 +01:00 [WRN] No active task time found for user '3005Testing'.
+2025-02-25 20:48:20.662 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 20:48:20.671 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 20:48:20.672 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 20:48:20.674 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:48:20.680 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 20:48:20.682 +01:00 [DBG] Attempting to clock out user '3005Testing'.
+2025-02-25 20:48:20.684 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:48:20.686 +01:00 [DBG] CurrentTask for '3005Testing': asdbasbdas
+2025-02-25 20:48:20.693 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.15.55, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.695 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.22.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.697 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.29.23, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.699 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.59.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.705 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 19.07.37, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.707 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.19.06, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.709 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.28.21, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.711 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.36.34, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.713 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.47.15, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.715 +01:00 [DBG] TaskTime - Task: testingefsdfsdfsdf, StartTime: 19/02/2025 18.47.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.720 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.54.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.722 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.04.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.724 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.09.27, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.726 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.31.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.728 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 18.44.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.731 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 19.04.43, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.735 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.20.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.739 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.32.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.742 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.34.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.744 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.47.22, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.747 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 20.06.10, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:20.752 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.04.03, EndTime: 25/02/2025 18.53.38
+2025-02-25 20:48:20.756 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.30.35, EndTime: 25/02/2025 18.30.41
+2025-02-25 20:48:20.758 +01:00 [DBG] TaskTime - Task: asdbasbdas, StartTime: 25/02/2025 18.58.02, EndTime: 25/02/2025 18.58.05
+2025-02-25 20:48:20.767 +01:00 [WRN] No active task time found for user '3005Testing'.
+2025-02-25 20:48:32.982 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:48:32.994 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:48:32.999 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:48:33.001 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:48:33.004 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:48:33.007 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:48:33.009 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:48:33.014 +01:00 [DBG] CurrentTask for 'Dumi': testing1111
+2025-02-25 20:48:33.022 +01:00 [DBG] TaskTime - Task: taskName, StartTime: 13/02/2025 20.46.11, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:33.023 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:33.030 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:33.033 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 25/02/2025 19.06.56
+2025-02-25 20:48:33.035 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:33.039 +01:00 [DBG] TaskTime - Task: testing1111, StartTime: 25/02/2025 19.10.07, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:33.050 +01:00 [WRN] No active task time found for user 'Dumi'.
+2025-02-25 20:48:50.604 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 20:48:50.612 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 20:48:50.613 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 20:48:50.615 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:48:50.623 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 20:48:50.625 +01:00 [DBG] Attempting to clock out user '3005Testing'.
+2025-02-25 20:48:50.628 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:48:50.631 +01:00 [DBG] CurrentTask for '3005Testing': asdbasbdas
+2025-02-25 20:48:50.639 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.15.55, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.645 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.22.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.648 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.29.23, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.655 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.59.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.658 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 19.07.37, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.661 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.19.06, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.665 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.28.21, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.671 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.36.34, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.675 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.47.15, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.678 +01:00 [DBG] TaskTime - Task: testingefsdfsdfsdf, StartTime: 19/02/2025 18.47.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.680 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.54.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.687 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.04.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.690 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.09.27, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.692 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.31.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.695 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 18.44.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.697 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 19.04.43, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.702 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.20.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.705 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.32.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.707 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.34.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.709 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.47.22, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.712 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 20.06.10, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:48:50.717 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.04.03, EndTime: 25/02/2025 18.53.38
+2025-02-25 20:48:50.720 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.30.35, EndTime: 25/02/2025 18.30.41
+2025-02-25 20:48:50.723 +01:00 [DBG] TaskTime - Task: asdbasbdas, StartTime: 25/02/2025 18.58.02, EndTime: 25/02/2025 18.58.05
+2025-02-25 20:48:50.731 +01:00 [WRN] No active task time found for user '3005Testing'.
+2025-02-25 20:49:13.298 +01:00 [DBG] Searching for user 'Bob'...
+2025-02-25 20:49:13.310 +01:00 [DBG] Found user Bob. Checking active users...
+2025-02-25 20:49:13.317 +01:00 [DBG] User 'Bob' added to active users.
+2025-02-25 20:49:13.320 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:49:13.323 +01:00 [DBG] Active User: Bob
+2025-02-25 20:49:13.325 +01:00 [DBG] Attempting to clock out user 'Bob'.
+2025-02-25 20:49:13.330 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:49:13.332 +01:00 [DBG] CurrentTask for 'Bob': 
+2025-02-25 20:49:13.340 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 13/02/2025 20.48.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:13.341 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 17/02/2025 19.31.39, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:13.348 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 18/02/2025 17.45.50, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:13.349 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 18/02/2025 17.52.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:13.352 +01:00 [DBG] TaskTime - Task: taskNameTest, StartTime: 18/02/2025 18.00.39, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:13.361 +01:00 [WRN] No active task time found for user 'Bob'.
+2025-02-25 20:49:39.583 +01:00 [DBG] Searching for user 'Bob'...
+2025-02-25 20:49:39.591 +01:00 [DBG] Found user Bob. Checking active users...
+2025-02-25 20:49:39.592 +01:00 [DBG] User 'Bob' added to active users.
+2025-02-25 20:49:39.598 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:49:39.600 +01:00 [DBG] Active User: Bob
+2025-02-25 20:49:39.603 +01:00 [DBG] Attempting to clock in user 'Bob' with task '1'.
+2025-02-25 20:49:39.906 +01:00 [INF] Bob clocked in for task '1'.
+2025-02-25 20:49:47.541 +01:00 [DBG] Searching for user 'Bob'...
+2025-02-25 20:49:47.550 +01:00 [DBG] Found user Bob. Checking active users...
+2025-02-25 20:49:47.551 +01:00 [DBG] User 'Bob' added to active users.
+2025-02-25 20:49:47.557 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:49:47.559 +01:00 [DBG] Active User: Bob
+2025-02-25 20:49:47.562 +01:00 [DBG] Attempting to clock out user 'Bob'.
+2025-02-25 20:49:47.564 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:49:47.566 +01:00 [DBG] CurrentTask for 'Bob': 1
+2025-02-25 20:49:47.574 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 13/02/2025 20.48.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:47.578 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 17/02/2025 19.31.39, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:47.580 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 18/02/2025 17.45.50, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:47.582 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 18/02/2025 17.52.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:47.584 +01:00 [DBG] TaskTime - Task: taskNameTest, StartTime: 18/02/2025 18.00.39, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:47.591 +01:00 [DBG] TaskTime - Task: 1, StartTime: 25/02/2025 19.49.39, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:49:47.599 +01:00 [WRN] No active task time found for user 'Bob'.
+2025-02-25 20:52:58.948 +01:00 [INF] Application Starting
+2025-02-25 20:53:11.668 +01:00 [DBG] Searching for user 'Bob'...
+2025-02-25 20:53:14.714 +01:00 [DBG] Found user Bob. Checking active users...
+2025-02-25 20:53:14.716 +01:00 [DBG] User 'Bob' added to active users.
+2025-02-25 20:53:14.718 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:53:14.719 +01:00 [DBG] Active User: Bob
+2025-02-25 20:53:31.876 +01:00 [DBG] Searching for user 'Bob'...
+2025-02-25 20:53:31.876 +01:00 [DBG] Searching for user 'Bob'...
+2025-02-25 20:53:31.920 +01:00 [DBG] Found user Bob. Checking active users...
+2025-02-25 20:53:31.921 +01:00 [DBG] User 'Bob' added to active users.
+2025-02-25 20:53:31.923 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:53:31.926 +01:00 [DBG] Active User: Bob
+2025-02-25 20:53:31.929 +01:00 [DBG] Attempting to clock in user 'Bob' with task '1'.
+2025-02-25 20:53:31.931 +01:00 [WRN] User 'Bob' is already clocked in for task '1'.
+2025-02-25 20:53:31.981 +01:00 [DBG] Found user Bob. Checking active users...
+2025-02-25 20:53:31.982 +01:00 [DBG] User 'Bob' added to active users.
+2025-02-25 20:53:31.985 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:53:31.987 +01:00 [DBG] Active User: Bob
+2025-02-25 20:53:31.990 +01:00 [DBG] Attempting to clock in user 'Bob' with task '1'.
+2025-02-25 20:53:31.993 +01:00 [WRN] User 'Bob' is already clocked in for task '1'.
+2025-02-25 20:53:41.623 +01:00 [DBG] Searching for user 'Bob'...
+2025-02-25 20:53:41.752 +01:00 [DBG] Found user Bob. Checking active users...
+2025-02-25 20:53:41.753 +01:00 [DBG] User 'Bob' added to active users.
+2025-02-25 20:53:41.755 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:53:41.757 +01:00 [DBG] Active User: Bob
+2025-02-25 20:53:41.761 +01:00 [DBG] Attempting to clock out user 'Bob'.
+2025-02-25 20:53:41.762 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:53:41.764 +01:00 [DBG] CurrentTask for 'Bob': 1
+2025-02-25 20:53:41.873 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 13/02/2025 20.48.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:53:41.874 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 17/02/2025 19.31.39, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:53:41.876 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 18/02/2025 17.45.50, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:53:41.878 +01:00 [DBG] TaskTime - Task: taskName1, StartTime: 18/02/2025 17.52.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:53:41.879 +01:00 [DBG] TaskTime - Task: taskNameTest, StartTime: 18/02/2025 18.00.39, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:53:41.881 +01:00 [DBG] TaskTime - Task: 1, StartTime: 25/02/2025 19.49.39, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:53:41.912 +01:00 [DBG] Current task found for 'Bob': 1, starting at 25/02/2025 19.49.39
+2025-02-25 20:53:42.234 +01:00 [INF] Bob clocked out successfully from task '1'.
+2025-02-25 20:54:38.221 +01:00 [DBG] Searching for user '3005Testing'...
+2025-02-25 20:54:38.246 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-02-25 20:54:38.252 +01:00 [DBG] User '3005Testing' added to active users.
+2025-02-25 20:54:38.255 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:54:38.264 +01:00 [DBG] Active User: 3005Testing
+2025-02-25 20:54:38.269 +01:00 [DBG] Attempting to clock out user '3005Testing'.
+2025-02-25 20:54:38.272 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:54:38.279 +01:00 [DBG] CurrentTask for '3005Testing': asdbasbdas
+2025-02-25 20:54:38.301 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.15.55, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.303 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.22.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.305 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.29.23, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.311 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 18.59.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.315 +01:00 [DBG] TaskTime - Task: testing, StartTime: 18/02/2025 19.07.37, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.318 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.19.06, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.320 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.28.21, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.327 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.36.34, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.330 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.47.15, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.333 +01:00 [DBG] TaskTime - Task: testingefsdfsdfsdf, StartTime: 19/02/2025 18.47.46, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.338 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 18.54.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.341 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.04.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.343 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.09.27, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.345 +01:00 [DBG] TaskTime - Task: testing, StartTime: 19/02/2025 19.31.12, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.348 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 18.44.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.350 +01:00 [DBG] TaskTime - Task: testing, StartTime: 20/02/2025 19.04.43, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.355 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.20.29, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.359 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.32.53, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.361 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.34.16, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.362 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 19.47.22, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.364 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 20/02/2025 20.06.10, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:54:38.369 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.04.03, EndTime: 25/02/2025 18.53.38
+2025-02-25 20:54:38.371 +01:00 [DBG] TaskTime - Task: testing123, StartTime: 25/02/2025 18.30.35, EndTime: 25/02/2025 18.30.41
+2025-02-25 20:54:38.373 +01:00 [DBG] TaskTime - Task: asdbasbdas, StartTime: 25/02/2025 18.58.02, EndTime: 25/02/2025 18.58.05
+2025-02-25 20:54:38.380 +01:00 [DBG] Current task found for '3005Testing': asdbasbdas, starting at 25/02/2025 18.58.02
+2025-02-25 20:54:38.402 +01:00 [INF] 3005Testing clocked out successfully from task 'asdbasbdas'.
+2025-02-25 20:55:09.473 +01:00 [DBG] Searching for user 'Neville'...
+2025-02-25 20:55:09.480 +01:00 [DBG] Found user Neville. Checking active users...
+2025-02-25 20:55:09.485 +01:00 [DBG] User 'Neville' added to active users.
+2025-02-25 20:55:09.487 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:55:09.490 +01:00 [DBG] Active User: Neville
+2025-02-25 20:55:09.492 +01:00 [DBG] Attempting to clock in user 'Neville' with task '1'.
+2025-02-25 20:55:09.494 +01:00 [WRN] User 'Neville' is already clocked in for task '1'.
+2025-02-25 20:55:31.089 +01:00 [DBG] Searching for user 'Neville'...
+2025-02-25 20:55:31.105 +01:00 [DBG] Found user Neville. Checking active users...
+2025-02-25 20:55:31.108 +01:00 [DBG] User 'Neville' added to active users.
+2025-02-25 20:55:31.111 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:55:31.118 +01:00 [DBG] Active User: Neville
+2025-02-25 20:55:31.121 +01:00 [DBG] Attempting to clock out user 'Neville'.
+2025-02-25 20:55:31.125 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:55:31.128 +01:00 [DBG] CurrentTask for 'Neville': 1
+2025-02-25 20:55:31.140 +01:00 [DBG] TaskTime - Task: 1, StartTime: 25/02/2025 19.33.43, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:55:31.150 +01:00 [DBG] Current task found for 'Neville': 1, starting at 25/02/2025 19.33.43
+2025-02-25 20:55:31.187 +01:00 [INF] Neville clocked out successfully from task '1'.
+2025-02-25 20:56:00.779 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:56:00.789 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:56:00.793 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:56:00.795 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:56:00.797 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:56:00.800 +01:00 [DBG] Attempting to clock in user 'Dumi' with task 'testy'.
+2025-02-25 20:56:00.802 +01:00 [WRN] User 'Dumi' is already clocked in for task 'testing1111'.
+2025-02-25 20:56:04.434 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:56:04.442 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:56:04.444 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:56:04.446 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:56:04.453 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:56:04.456 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:56:04.458 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:56:04.461 +01:00 [DBG] CurrentTask for 'Dumi': testing1111
+2025-02-25 20:56:04.471 +01:00 [DBG] TaskTime - Task: taskName, StartTime: 13/02/2025 20.46.11, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:56:04.473 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:56:04.476 +01:00 [DBG] TaskTime - Task: testing1, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:56:04.478 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 25/02/2025 19.06.56
+2025-02-25 20:56:04.484 +01:00 [DBG] TaskTime - Task: testing, StartTime: 25/02/2025 19.05.25, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:56:04.487 +01:00 [DBG] TaskTime - Task: testing1111, StartTime: 25/02/2025 19.10.07, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:56:04.495 +01:00 [DBG] Current task found for 'Dumi': testing1111, starting at 25/02/2025 19.10.07
+2025-02-25 20:56:04.510 +01:00 [INF] Dumi clocked out successfully from task 'testing1111'.
+2025-02-25 20:56:29.964 +01:00 [DBG] Searching for user 'Dumi'...
+2025-02-25 20:56:29.978 +01:00 [DBG] Found user Dumi. Checking active users...
+2025-02-25 20:56:29.984 +01:00 [DBG] User 'Dumi' added to active users.
+2025-02-25 20:56:29.993 +01:00 [DBG] Active Users Count: 1
+2025-02-25 20:56:29.998 +01:00 [DBG] Active User: Dumi
+2025-02-25 20:56:30.004 +01:00 [DBG] Attempting to clock out user 'Dumi'.
+2025-02-25 20:56:30.012 +01:00 [DBG] User found in active users for clocking out.
+2025-02-25 20:56:30.017 +01:00 [DBG] CurrentTask for 'Dumi': testy
+2025-02-25 20:56:30.028 +01:00 [DBG] TaskTime - Task: dumi1, StartTime: 25/02/2025 19.06.33, EndTime: 25/02/2025 19.08.42
+2025-02-25 20:56:30.032 +01:00 [DBG] TaskTime - Task: testy, StartTime: 25/02/2025 19.40.14, EndTime: 01/01/0001 00.00.00
+2025-02-25 20:56:30.044 +01:00 [DBG] Current task found for 'Dumi': testy, starting at 25/02/2025 19.40.14
+2025-02-25 20:56:30.063 +01:00 [INF] Dumi clocked out successfully from task 'testy'.

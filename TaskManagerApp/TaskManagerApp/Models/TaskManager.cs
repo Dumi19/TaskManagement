@@ -3,6 +3,7 @@ using Serilog;
 using System.Collections.Concurrent;
 using System.Text;
 using TaskManagerApp.Data;
+using TaskManagerApp.Models;
 
 namespace TaskManagerApp.Models
 {
@@ -18,8 +19,15 @@ namespace TaskManagerApp.Models
 
         public void AddUser(string userName)
         {
+            if (_context.Users.Any(u => u.userName.ToLower() == userName.ToLower()))
+            {
+                Log.Warning($"User '{userName}' already exists. Cannot add.");
+                return; // Exit if the user already exists
+            }
+
             var user = new User(userName);
             _context.Users.Add(user);
+
             try
             {
                 _context.SaveChanges();
@@ -76,7 +84,6 @@ namespace TaskManagerApp.Models
 
             if (activeUsers.TryGetValue(userName, out var user))
             {
-                Log.Debug("User found in active users.");
                 if (!string.IsNullOrWhiteSpace(user.CurrentTask))
                 {
                     Log.Warning($"User '{userName}' is already clocked in for task '{user.CurrentTask}'.");
@@ -87,16 +94,19 @@ namespace TaskManagerApp.Models
                 {
                     TaskName = taskName,
                     StartTime = DateTime.UtcNow,
-                    EndTime = DateTime.MinValue,
+                    EndTime = DateTime.MaxValue, // Explicitly set this when creating
                     UserId = user.Id
                 };
 
-                user.AddTaskTime(taskName, taskTime);
+                user.AddTaskTime(taskName, taskTime); // Add the task time to the user
+                user.CurrentTask = taskName; // Set the current task to the provided taskName
+                Log.Debug($"Set CurrentTask for '{user.userName}' to '{user.CurrentTask}'.");
+
                 _context.TaskTimes.Add(taskTime);
 
                 try
                 {
-                    _context.SaveChanges(); // Attempt to save changes to the database
+                    _context.SaveChanges(); // Commit to the database
                     Log.Information($"{user.userName} clocked in for task '{taskName}'.");
                 }
                 catch (DbUpdateException ex)
@@ -113,55 +123,68 @@ namespace TaskManagerApp.Models
                 Log.Warning($"User '{userName}' is not active. Cannot clock in.");
             }
         }
-
         public void ClockOut(string userName)
         {
-            Log.Debug($"Debug: Attempting to clock out user '{userName}'.");
+            Log.Debug($"Attempting to clock out user '{userName}'.");
 
-            if (activeUsers.TryGetValue(userName, out var user)) // Check active user
+            if (activeUsers.TryGetValue(userName, out var user)) // Check if user is active
             {
-                Log.Debug("Debug: User found in active users for clocking out.");
+                Log.Debug("User found in active users for clocking out.");
+                Log.Debug($"CurrentTask for '{user.userName}': {user.CurrentTask}");
 
+                // Log all task times before checking for the current task time
+                var taskTimes = _context.TaskTimes.Where(t => t.UserId == user.Id).ToList();
+                foreach (var tt in taskTimes)
+                {
+                    Log.Debug($"TaskTime - Task: {tt.TaskName}, StartTime: {tt.StartTime}, EndTime: {tt.EndTime}");
+                }
+
+                // Retrieve current task time
                 var taskTime = _context.TaskTimes
-                    .Where(t => t.UserId == user.Id && t.TaskName == user.CurrentTask && t.EndTime == DateTime.MinValue)
-                    .OrderByDescending(t => t.StartTime)
-                    .FirstOrDefault();
+    .Where(t => t.UserId == user.Id && t.TaskName == user.CurrentTask) // Skip EndTime for debug purposes
+    .OrderByDescending(t => t.StartTime)
+    .FirstOrDefault();
 
                 if (taskTime != null)
                 {
-                    taskTime.EndTime = DateTime.UtcNow; // Set EndTime 
-                    _context.TaskTimes.Update(taskTime);
+                    Log.Debug($"Current task found for '{user.userName}': {taskTime.TaskName}, starting at {taskTime.StartTime}");
 
-                    try
+                    taskTime.EndTime = DateTime.UtcNow; // Set EndTime
+                    user.CurrentTask = null; // Clear the current task
+                    _context.TaskTimes.Update(taskTime); // Update task time in the context
+                    _context.Users.Update(user); // Mark user for update
+
+                    // Save changes within a transaction
+                    using (var transaction = _context.Database.BeginTransaction())
                     {
-                        _context.SaveChanges(); // Commit to the database
-                        Log.Information($"{user.userName} clocked out successfully from task '{user.CurrentTask}'.");
-                        user.CurrentTask = null; // Clear the current task
-                    }
-                    catch (DbUpdateException ex)
-                    {
-                        // Handle database update exceptions
-                        Log.Error($"Error saving clock-out information for user '{userName}': {ex.Message}");
-                    }
-                    catch (Exception ex)
-                    {
-                        // Handle any other exceptions that may occur
-                        Log.Error($"An unexpected error occurred during clock-out for user '{userName}': {ex.Message}");
+                        try
+                        {
+                            _context.SaveChanges(); // Commit changes to the database
+                            transaction.Commit();
+                            Log.Information($"{user.userName} clocked out successfully from task '{taskTime.TaskName}'.");
+                            activeUsers.TryRemove(userName, out _); // Remove user from active users list
+                        }
+                        catch (DbUpdateException ex)
+                        {
+                            transaction.Rollback(); // Rollback on error
+                            Log.Error($"Error saving clock-out information for user '{userName}': {ex.Message}");
+                        }
+                        catch (Exception ex)
+                        {
+                            transaction.Rollback(); // Rollback on unexpected error
+                            Log.Error($"An unexpected error occurred during clock-out for user '{userName}': {ex.Message}");
+                        }
                     }
                 }
                 else
                 {
-                    Log.Debug($"No active task time found for user '{user.userName}'.");
+                    Log.Warning($"No active task time found for user '{user.userName}'.");
                 }
             }
             else
             {
                 Log.Warning($"User '{userName}' is not in active users.");
             }
-
-            // Log current active users after clocking out
-            Log.Debug("Active Users After ClockOut:");
-            LogActiveUsers(); // Log active users after the clock-out attempt
         }
 
         // Helper method to log active users
@@ -186,11 +209,13 @@ namespace TaskManagerApp.Models
             {
                 var report = new Dictionary<string, TimeSpan>();
 
-                foreach (var taskTime in user.TaskTimes)
+                // Ensure that TaskTimes is initialized and available
+                foreach (var taskTime in user.TaskTimes ?? Enumerable.Empty<TaskTime>())
                 {
-                    if (taskTime.EndTime != DateTime.MinValue) // Validate that the end time is set
+                    // Check if EndTime is set (if using nullable)
+                    if (taskTime.EndTime.HasValue) // If EndTime is nullable
                     {
-                        var totalTimeSpent = taskTime.EndTime - taskTime.StartTime; // Calculate total time for this task
+                        var totalTimeSpent = taskTime.EndTime.Value - taskTime.StartTime; // Calculate total time for this task
                         if (report.ContainsKey(taskTime.TaskName))
                         {
                             report[taskTime.TaskName] += totalTimeSpent; // Accumulate time spent on existing task
@@ -213,35 +238,7 @@ namespace TaskManagerApp.Models
             }
 
             Log.Warning($"User '{userName}' not found while generating report.");
-            return null; // User not found
-        }
-
-        public void GenerateReportForAllUsers(string filePath)
-        {
-            StringBuilder csvContent = new StringBuilder();
-            csvContent.AppendLine("User Name,Task Name,Total Time Spent");
-
-            foreach (var user in activeUsers.Values) // Iterate over active users
-            {
-                foreach (var taskTime in user.TaskTimes)
-                {
-                    if (taskTime.EndTime != DateTime.MinValue) // Only include completed tasks
-                    {
-                        var totalTimeSpent = taskTime.EndTime - taskTime.StartTime; // Calculate time spent
-                        csvContent.AppendLine($"{user.userName},{taskTime.TaskName},{totalTimeSpent}");
-                    }
-                }
-            }
-
-            try
-            {
-                File.WriteAllText(filePath, csvContent.ToString()); // Write CSV content to file
-                Log.Information($"Report generated and saved to {filePath}");
-            }
-            catch (Exception ex)
-            {
-                Log.Error($"Error saving the file: {ex.Message}");
-            }
+            return null; // Return null if the user is not found
         }
     }
 }
