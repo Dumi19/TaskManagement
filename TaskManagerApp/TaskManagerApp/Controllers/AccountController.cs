@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using TaskManagerApp.Data;
 using TaskManagerApp.Models;
 
@@ -37,20 +38,49 @@ namespace TaskManagerApp.Controllers
         {
             return View();
         }
-        [HttpPost]
+   
+        
+         [HttpPost]
         public IActionResult Register(string userName)
         {
-            if (string.IsNullOrWhiteSpace(userName))
+            try
             {
-                ViewBag.Message = "User name cannot be empty.";
-                return View();
-            }
-            var user = new User { userName = userName };
-            _context.Users.Add(user); // Add user to the DbSet
-            _context.SaveChanges(); // Save changes to the database
+                if (string.IsNullOrWhiteSpace(userName))
+                    throw new ArgumentException("User name cannot be empty.");
 
-            ViewBag.Message = $"User {userName} has been registered successfully!";
-            return RedirectToAction("Login");
-        }
+                // Check for existing user
+                var existingUser = _context.Users.FirstOrDefault(u => u.userName == userName);
+                if (existingUser != null)
+                {
+                    ViewBag.Message = "Username already exists. Please choose a different username.";
+                    return View();
+                }
+
+                var user = new User(userName);
+                _context.Users.Add(user); // Add user to the DbSet
+                _context.SaveChanges();    // Save changes to the database
+
+                ViewBag.Message = $"User {userName} has been registered successfully!";
+                return RedirectToAction("Login");
+            }
+            catch (DbUpdateException dbEx)
+            {
+                // Log detailed exception
+                Console.WriteLine(dbEx.InnerException?.Message);
+                ViewBag.Message = "An error occurred while saving to the database. Please try again.";
+            }
+            catch (ArgumentException ex)
+            {
+                ViewBag.Message = ex.Message; // Provide user feedback for input issues
+            }
+            catch (Exception ex)
+            {
+                // Catch any other exceptions
+                Console.WriteLine(ex.Message);
+                ViewBag.Message = "An unexpected error occurred. Please try again.";
+            }
+
+            return View();
+        } 
     }
 }

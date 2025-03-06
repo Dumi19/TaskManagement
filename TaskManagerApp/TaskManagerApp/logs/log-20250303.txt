@@ -1,0 +1,6 @@
+2025-03-03 18:13:23.561 +01:00 [INF] Application Starting
+2025-03-03 18:13:32.348 +01:00 [DBG] Searching for user '3005Testing'...
+2025-03-03 18:13:55.680 +01:00 [DBG] Found user 3005Testing. Checking active users...
+2025-03-03 18:13:55.683 +01:00 [DBG] User '3005Testing' added to active users.
+2025-03-03 18:13:55.686 +01:00 [DBG] Active Users Count: 1
+2025-03-03 18:13:55.689 +01:00 [DBG] Active User: 3005Testing
